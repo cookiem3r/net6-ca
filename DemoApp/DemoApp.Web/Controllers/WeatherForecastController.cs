@@ -1,3 +1,4 @@
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DemoApp.Web.Controllers
@@ -12,10 +13,12 @@ namespace DemoApp.Web.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly IMediator _mediatr;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IMediator mediatr)
         {
             _logger = logger;
+            _mediatr = mediatr;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]

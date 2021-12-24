@@ -9,3 +9,15 @@ C:\Users\ahboy\source\repos\DemoApp.Web\DemoApp.Application\obj\Debug\net6.0\Dem
 C:\Users\ahboy\source\repos\DemoApp.Web\DemoApp.Application\obj\Debug\net6.0\DemoApp.Application.dll
 C:\Users\ahboy\source\repos\DemoApp.Web\DemoApp.Application\obj\Debug\net6.0\ref\DemoApp.Application.dll
 C:\Users\ahboy\source\repos\DemoApp.Web\DemoApp.Application\obj\Debug\net6.0\DemoApp.Application.pdb
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\bin\Debug\net6.0\DemoApp.Application.deps.json
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\bin\Debug\net6.0\DemoApp.Application.dll
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\bin\Debug\net6.0\ref\DemoApp.Application.dll
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\bin\Debug\net6.0\DemoApp.Application.pdb
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\obj\Debug\net6.0\DemoApp.Application.csproj.AssemblyReference.cache
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\obj\Debug\net6.0\DemoApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\obj\Debug\net6.0\DemoApp.Application.AssemblyInfoInputs.cache
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\obj\Debug\net6.0\DemoApp.Application.AssemblyInfo.cs
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\obj\Debug\net6.0\DemoApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\obj\Debug\net6.0\DemoApp.Application.dll
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\obj\Debug\net6.0\ref\DemoApp.Application.dll
+C:\Users\ahboy\source\repos\net6-ca\DemoApp\DemoApp.Application\obj\Debug\net6.0\DemoApp.Application.pdb
