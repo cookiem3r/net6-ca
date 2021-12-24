@@ -1,4 +1,5 @@
-﻿using DemoApp.Application.Context.Queries;
+﻿using DemoApp.Application.Context.Commands.AddTwoSmallNumbers;
+using DemoApp.Application.Context.Queries.GetCurrentTime;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,6 +21,13 @@ namespace DemoApp.Web.Controllers
         {
             var result = await _mediator.Send(new GetCurrentTimeQueryModel());
             return Ok($"{result.ToLongDateString()} {result.ToLongTimeString()}");
+        }
+
+        [HttpPost("api/demo/addsmallnumbers")]
+        public async Task<IActionResult> AddTwoSmallNumbers(AddTwoSmallNumbersCommandModel model)
+        {
+            var result = await _mediator.Send(model);
+            return Ok(result);
         }
     }
 }

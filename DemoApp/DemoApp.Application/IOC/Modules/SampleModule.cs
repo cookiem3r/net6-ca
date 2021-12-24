@@ -1,6 +1,7 @@
 ﻿
-
 using Autofac;
+using DemoApp.Application.Common.Behaviours;
+using MediatR;
 
 namespace DemoApp.Application.IOC.Modules
 {
@@ -14,8 +15,6 @@ namespace DemoApp.Application.IOC.Modules
             //    var c = ctx.Resolve<IComponentContext>();
             //    return t => c.Resolve(t);
             //});
-
-
             base.Load(builder);
         }
     }
