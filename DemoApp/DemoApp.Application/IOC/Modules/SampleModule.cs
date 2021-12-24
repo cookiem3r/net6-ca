@@ -1,7 +1,5 @@
 ﻿
 using Autofac;
-using DemoApp.Application.Common.Behaviours;
-using MediatR;
 
 namespace DemoApp.Application.IOC.Modules
 {

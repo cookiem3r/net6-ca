@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using DemoApp.Application.Common.Exceptions;
+using FluentValidation;
 using FluentValidation.Results;
 using MediatR;
 
@@ -16,11 +17,11 @@ namespace DemoApp.Application.Common.Behaviours
         {
             if (_validators.Any())
             {
-                ValidationContext<TRequest>? context = new ValidationContext<TRequest>(request);
+                ValidationContext<TRequest>? context = new(request);
                 ValidationResult[]? validationResults = await Task.WhenAll(_validators.Select(v => v.ValidateAsync(context, cancellationToken)));
                 List<ValidationFailure>? failures = validationResults.SelectMany(r => r.Errors).Where(f => f != null).ToList();
                 if (failures.Count != 0)
-                    throw new ValidationException(failures);
+                    throw new ValidationDictionaryException(failures);
             }
 
             return await next();
