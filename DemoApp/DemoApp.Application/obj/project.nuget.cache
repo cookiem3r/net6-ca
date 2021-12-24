@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "d7zKFrjCY7xYVIbTuZUFCXNv+fKeciQ/zGt61l+7E7CfyZge5GHeaUpnOk0SvV6lqiqj0ryXZHP991FDIsd/XA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ahboy\\source\\repos\\net6-ca\\DemoApp\\DemoApp.Application\\DemoApp.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ahboy\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\ahboy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
